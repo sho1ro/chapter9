@@ -33,21 +33,28 @@ main {
   display: inline-block;
 }
 
-.box-image {
+.box-image1 {
   height: 150px;
   margin: 10px 10px 15px;
-}
-
-.box-image:first-child {
   background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
-.box-image:nth-child(2) {
+.box-image2 {
+  height: 150px;
+  margin: 10px 10px 15px;
   background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
-.box-image:last-child {
+.box-image3 {
+  height: 150px;
+  margin: 10px 10px 15px;
   background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .box-heading {
